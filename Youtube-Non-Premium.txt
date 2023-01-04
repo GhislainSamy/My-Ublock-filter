@@ -40,4 +40,4 @@ youtube.com##a[href*="/paid_memberships"]
 ! Enlever les emojis payant en commentaire
 youtube.com##button[aria-label="Emoji personnalisés"]
 youtube.com##yt-emoji-picker-category-button-renderer[id="UC4wj8LCLrOfgKrOVDLW4yOA"]
-youtube.com##t-emoji-picker-upsell-category-renderer[aria-label*=" to unlock their custom emoji."]
+youtube.com##yt-emoji-picker-upsell-category-renderer[aria-label*=" to unlock their custom emoji."]
