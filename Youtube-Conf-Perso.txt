@@ -1,0 +1,14 @@
+
+! Enlever le bouton de Micro dans la recherche    
+youtube.com##button[aria-label="Effectuer une recherche vocale"]
+
+! Enlever la partie contenus associés en bas de la description  
+youtube.com##ytd-rich-metadata-renderer[component-style="RICH_METADATA_RENDERER_STYLE_TOPIC"]
+youtube.com##ytd-rich-metadata-renderer[component-style="RICH_METADATA_RENDERER_STYLE_BOX_ART"]
+
+! Enlever le message associé à la video en bas du lecteur 
+youtube.com##ytd-clarification-renderer
+youtube.com##div[id="clarify-box"]
+
+! Enlever l'enquête' "Comment avez vous trouvez cette vidéo ? "    
+youtube.com##ytd-inline-survey-renderer
