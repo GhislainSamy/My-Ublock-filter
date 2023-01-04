@@ -1,0 +1,7 @@
+! ======= Conf Perso =======
+
+! Enelver le bouton de téléchargement Spotify Desktop */
+open.spotify.com##a[href="/download"]
+
+! Enelver le bouton "Créer "Créer une playlist" */
+open.spotify.com##button[data-testid="create-playlist-button"]
