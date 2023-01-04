@@ -1,0 +1,40 @@
+! ======= Theme Youtube Non Premium =======  
+
+! Enlever le bouton Premium "Rejoindre" à gauche a côté du nom de la chaine.
+youtube.com###sponsor-button
+
+! Enlever la zone Premium "Rejoignez cette chaîne" a l'accueil de la chaine.
+youtube.com##ytd-recognition-shelf-renderer
+
+! Enlever le dialogue de propositions "Devenir membre de cette chaîne"
+youtube.com##yt-mealbar-promo-renderer
+
+! Enlever le bouton Premium "Télécharger" de la liste des boutons
+youtube.com##ytd-download-button-renderer
+youtube.com##ytd-menu-service-item-download-renderer
+
+! Enlever le bouton Premium "Merci" de la liste des boutons
+youtube.com##button[aria-label="Merci"]
+
+! Enlever le bouton Premium à gauche "YouTube Premium"
+youtube.com##a[title="YouTube Premium"]
+
+! Enlever le bouton Premium à gauche "YouTube TV"
+youtube.com##a[title="YouTube TV"]
+
+! Enlever le bouton Premium à gauche "Films et TV"
+youtube.com##a[title="Films et TV"]
+
+! Enlever les propositions "Films Youtube" à droite du lecteur video
+youtube.com##ytd-compact-movie-renderer
+
+! Enlever le champ "S'abonner à YouTube Premium" dans les contenus associés en bas de la description du lecteur
+youtube.com###premium-upsell-link
+
+! Enlever le champ "Achats et abonnements" du menu avatar en haut à droite
+youtube.com##a[href*="/paid_memberships"]
+
+! Enlever les emojis payant en commentaire
+youtube.com##button[aria-label="Emoji personnalisés"]
+youtube.com##yt-emoji-picker-category-button-renderer[id="UC4wj8LCLrOfgKrOVDLW4yOA"]
+youtube.com##t-emoji-picker-upsell-category-renderer[aria-label*=" to unlock their custom emoji."]
