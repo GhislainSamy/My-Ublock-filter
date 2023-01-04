@@ -12,3 +12,6 @@ youtube.com##div[id="clarify-box"]
 
 ! Enlever l'enquête' "Comment avez vous trouvez cette vidéo ? "    
 youtube.com##ytd-inline-survey-renderer
+
+! Enlever le Chat si désactivé
+youtube.com##yt-formatted-string:has-text("La rediffusion du chat a été désactivée pour cette Première."):upward(ytd-live-chat-frame)
