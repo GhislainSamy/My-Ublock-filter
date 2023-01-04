@@ -1,0 +1,7 @@
+! ======= Theme Youtube Music Non Premium =======
+
+! Cache le carré "Toute votre musique sans pub avec Music Premium"
+ytmusic-mealbar-promo-renderer
+
+! Caché le bouton Premium "S'abonner"
+ytmusic-pivot-bar-item-renderer[tab-id="SPunlimited"]
