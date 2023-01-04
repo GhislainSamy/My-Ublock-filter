@@ -1,0 +1,18 @@
+! Block Youtube Shorts on front page
+youtube.com##ytd-rich-section-renderer > .ytd-rich-section-renderer > .ytd-rich-section-renderer[is-shorts=""]
+youtube.com##yt-formatted-string:has-text(/#shorts/):upward(ytd-rich-item-renderer.ytd-rich-grid-row)l
+ 
+! Block Youtube Shorts on the subscriptions page
+youtube.com##ytd-thumbnail-overlay-time-status-renderer[overlay-style=SHORTS]:upward(ytd-grid-video-renderer.ytd-grid-renderer)
+ 
+! Block Youtube Shorts on the search page
+youtube.com##ytd-thumbnail-overlay-time-status-renderer[overlay-style=SHORTS]:upward(ytd-video-renderer.ytd-item-section-renderer)
+ 
+! Remove Shorts on sidebar menu
+youtube.com##a.yt-simple-endpoint.ytd-guide-entry-renderer[title=Shorts]:upward(ytd-guide-entry-renderer.ytd-guide-section-renderer)
+
+! Remove Video only for members
+youtube.com##a.yt-simple-endpoint[title="Vidéos réservées aux membres"]:upward(ytd-shelf-renderer.ytd-item-section-renderer)
+
+! Remove Chat if disable
+youtube.com##yt-formatted-string:has-text("La rediffusion du chat a été désactivée pour cette Première."):upward(ytd-live-chat-frame)
