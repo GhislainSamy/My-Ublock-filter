@@ -37,6 +37,9 @@ youtube.com###premium-upsell-link
 ! Enlever le champ "Achats et abonnements" du menu avatar en haut à droite
 youtube.com##a[href*="/paid_memberships"]
 
+! Enlever les videos seulement pour membre payant
+youtube.com##a.yt-simple-endpoint[title="Vidéos réservées aux membres"]:upward(ytd-shelf-renderer.ytd-item-section-renderer)
+
 ! Enlever les emojis payant en commentaire
 youtube.com##button[aria-label="Emoji personnalisés"]
 youtube.com##yt-emoji-picker-category-button-renderer[id="UC4wj8LCLrOfgKrOVDLW4yOA"]
