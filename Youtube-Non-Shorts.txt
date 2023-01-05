@@ -10,9 +10,3 @@ youtube.com##ytd-thumbnail-overlay-time-status-renderer[overlay-style=SHORTS]:up
  
 ! Remove Shorts on sidebar menu
 youtube.com##a.yt-simple-endpoint.ytd-guide-entry-renderer[title=Shorts]:upward(ytd-guide-entry-renderer.ytd-guide-section-renderer)
-
-! Remove Video only for members
-youtube.com##a.yt-simple-endpoint[title="Vidéos réservées aux membres"]:upward(ytd-shelf-renderer.ytd-item-section-renderer)
-
-! Remove Chat if disable
-youtube.com##yt-formatted-string:has-text("La rediffusion du chat a été désactivée pour cette Première."):upward(ytd-live-chat-frame)
