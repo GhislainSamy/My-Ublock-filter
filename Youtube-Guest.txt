@@ -7,3 +7,5 @@ youtube.com##a.yt-simple-endpoint[title="Subscriptions"]:upward(ytd-guide-sectio
 youtube.com##a.yt-simple-endpoint[title="Library"]:upward(ytd-guide-section-renderer)
 youtube.com##a.yt-simple-endpoint[title="History"]:upward(ytd-guide-section-renderer)
 youtube.com##button[aria-label="Save to playlist"]
+youtube.com##ytd-comment-simplebox-renderer
+youtube.com###subscribe-button
