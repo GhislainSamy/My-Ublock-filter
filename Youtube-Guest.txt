@@ -1,7 +1,7 @@
 youtube.com##ytd-guide-signin-promo-renderer
 youtube.com##a.yt-spec-button-shape-next[aria-label="Sign in"]:upward(ytd-button-renderer)
 youtube.com##a.yt-simple-endpoint[href*="https://myaccount.google.com/u/0/yourdata/"]:upward(yt-multi-page-menu-section-renderer)
-youtube.com##a.yt-simple-endpoint[title="Settings"]:upward(yt-multi-page-menu-section-renderer)
+youtube.com##a.yt-simple-endpoint[title="Settings"]:upward(ytd-guide-entry-renderer)
 youtube.com##a.yt-simple-endpoint[title="Browse channels"]:upward(ytd-guide-section-renderer)
 youtube.com##a.yt-simple-endpoint[title="Subscriptions"]:upward(ytd-guide-section-renderer)
 youtube.com##a.yt-simple-endpoint[title="Library"]:upward(ytd-guide-section-renderer)
