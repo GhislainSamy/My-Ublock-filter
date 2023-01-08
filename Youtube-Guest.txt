@@ -3,8 +3,7 @@ youtube.com##a.yt-spec-button-shape-next[aria-label="Sign in"]:upward(ytd-button
 youtube.com##a.yt-simple-endpoint[href*="https://myaccount.google.com/u/0/yourdata/"]:upward(yt-multi-page-menu-section-renderer)
 youtube.com##a.yt-simple-endpoint[href="/account"]:upward(ytd-guide-entry-renderer)
 youtube.com##a.yt-simple-endpoint[title="Browse channels"]:upward(ytd-guide-section-renderer)
-youtube.com##a.yt-simple-endpoint[title="Subscriptions"]:upward(ytd-guide-section-renderer)
-youtube.com##a.yt-simple-endpoint[title="Library"]:upward(ytd-guide-section-renderer)
+youtube.com##a.yt-simple-endpoint[title="Subscriptions"]:upward(ytd-guide-entry-renderer)
 youtube.com##a.yt-simple-endpoint[title="History"]:upward(ytd-guide-section-renderer)
 youtube.com##button[aria-label="Save to playlist"]
 youtube.com##ytd-comment-simplebox-renderer
