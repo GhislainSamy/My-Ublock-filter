@@ -14,7 +14,7 @@ youtube.com##ytd-download-button-renderer
 youtube.com##ytd-menu-service-item-download-renderer
 
 ! Enlever le bouton Premium "Merci" de la liste des boutons
-youtube.com##button[aria-label="Merci"]
+youtube.com##button[aria-label*="Merci"]
 
 ! Enlever le bouton Premium à gauche "YouTube Premium"
 youtube.com##a[title="YouTube Premium"]
