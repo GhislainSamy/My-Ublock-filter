@@ -15,3 +15,10 @@ youtube.com##ytd-inline-survey-renderer
 
 ! Enlever le Chat si désactivé
 youtube.com##yt-formatted-string:has-text("La rediffusion du chat a été désactivée pour cette Première."):upward(ytd-live-chat-frame)
+
+! Removes Mixes from the Main Page
+youtube.com##ytd-rich-item-renderer #video-title-link[title*="Mix"][href$="start_radio=1"]:upward(ytd-rich-item-renderer)
+! Removes Mixes from the right side panel
+youtube.com##ytd-compact-radio-renderer
+! Removes Mixes from search results
+youtube.com##ytd-radio-renderer
