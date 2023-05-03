@@ -22,3 +22,6 @@ youtube.com##ytd-rich-item-renderer #video-title-link[title*="Mix"][href$="start
 youtube.com##ytd-compact-radio-renderer
 ! Removes Mixes from search results
 youtube.com##ytd-radio-renderer
+
+! Enlever la partie "Regardées précédemment" en recherche
+youtube.com##span:has-text(/Regardées précédemment/):upward(#dismissible)
