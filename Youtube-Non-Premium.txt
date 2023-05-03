@@ -28,6 +28,9 @@ youtube.com##a[title="Films et TV"]
 ! Enlever "Films recommandés" à l'accueil
 youtube.com##a.yt-simple-endpoint[title="Films recommandés"]:upward(ytd-rich-shelf-renderer)
 
+! Enlever Films à "Louer" en recherche
+youtube.com##ytd-movie-renderer
+
 ! Enlever les propositions "Films Youtube" à droite du lecteur video
 youtube.com##ytd-compact-movie-renderer
 
