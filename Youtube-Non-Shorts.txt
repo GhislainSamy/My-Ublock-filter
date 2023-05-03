@@ -6,7 +6,7 @@ youtube.com##yt-formatted-string:has-text(/#shorts/):upward(ytd-rich-item-render
 youtube.com##ytd-thumbnail-overlay-time-status-renderer[overlay-style=SHORTS]:upward(ytd-grid-video-renderer.ytd-grid-renderer)
  
 ! Block Youtube Shorts on the search page
-youtube.com##ytd-thumbnail-overlay-time-status-renderer[overlay-style=SHORTS]:upward(ytd-video-renderer.ytd-item-section-renderer)
+youtube.com##span:has-text(/Shorts/):upward(ytd-reel-shelf-renderer)
  
 ! Remove Shorts on sidebar menu
 youtube.com##a.yt-simple-endpoint.ytd-guide-entry-renderer[title=Shorts]:upward(ytd-guide-entry-renderer.ytd-guide-section-renderer)
