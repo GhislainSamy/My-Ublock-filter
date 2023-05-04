@@ -3,3 +3,6 @@
 ! Enlever le bouton "Passer à Premium"
 open.spotify.com##button[aria-label="Passer à Premium"]
 open.spotify.com##a[href*="https://www.spotify.com/premium/"]
+
+! Enlever le Pop-Up de pub
+open.spotify.com##div[class="GenericModal__overlay GenericModal__overlay--animated GenericModal__overlay--afterOpen"]
