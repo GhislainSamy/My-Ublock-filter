@@ -24,7 +24,7 @@ youtube.com##ytd-compact-radio-renderer
 youtube.com##ytd-radio-renderer
 
 ! Enlever la partie "Regardées précédemment" en recherche
-youtube.com###dismissible>.grid-subheader>#title-container>.ytd-shelf-renderer:has-text(Regardées précédemment)
+youtube.com###dismissible>.grid-subheader>#title-container>.ytd-shelf-renderer:has-text(Regardées précédemment):upward(#dismissible)
 
 ! Enlever le text "Abonné" du bouton d'abonnement car on le sait déjà avec la cloche
 youtube.com##yt-button-shape>button>.cbox>.yt-core-attributed-string:has-text(Abonné)
