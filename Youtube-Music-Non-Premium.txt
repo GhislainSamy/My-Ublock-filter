@@ -4,7 +4,7 @@
 music.youtube.com##ytmusic-mealbar-promo-renderer
 
 ! Caché le bouton Premium "S'abonner"
-music.youtube.com##ytmusic-pivot-bar-item-renderer[tab-id="SPunlimited"]
+music.youtube.com##ytmusic-guide-entry-renderer>tp-yt-paper-item>div>div>yt-formatted-string:has-text("S'abonner"):upward(ytmusic-guide-entry-renderer)
 
 ! Caché le bouton Premium "Obtenir Music Premium" dans le menu compte
 music.youtube.com##a[href*="/music_premium"]
