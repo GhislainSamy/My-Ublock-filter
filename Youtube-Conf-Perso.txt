@@ -28,3 +28,6 @@ youtube.com###dismissible>.grid-subheader>#title-container>.ytd-shelf-renderer:h
 
 ! Enlever le text "Abonné" du bouton d'abonnement car on le sait déjà avec la cloche
 youtube.com##yt-button-shape>button>.cbox>.yt-core-attributed-string:has-text(Abonné)
+
+! Enlever le text "Abonné" du bouton d'abonnement car on le sait déjà avec la cloche
+youtube.com##ytd-button-renderer>yt-button-shape>button>.cbox>.yt-core-attributed-string:has-text(Partager)
