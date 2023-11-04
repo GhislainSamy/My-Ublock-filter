@@ -27,7 +27,7 @@ youtube.com##ytd-radio-renderer
 youtube.com###dismissible>.grid-subheader>#title-container>.ytd-shelf-renderer:has-text(Regardées précédemment):upward(#dismissible)
 
 ! Enlever le text "Abonné" du bouton d'abonnement car on le sait déjà avec la cloche
-youtube.com##yt-button-shape>button>.cbox>.yt-core-attributed-string:has-text(Abonné)
+youtube.com##yt-button-shape>button>.yt-spec-button-shape-next__button-text-content:has-text(Abonné)
 
-! Enlever le text "Abonné" du bouton d'abonnement car on le sait déjà avec la cloche
-youtube.com##ytd-button-renderer>yt-button-shape>button>.cbox>.yt-core-attributed-string:has-text(Partager)
+! Enlever le text "Partager" du bouton car on sait déjà que c'est pour copier le lien rapide
+youtube.com##yt-button-shape>button>.yt-spec-button-shape-next__button-text-content:has-text(Partager)
