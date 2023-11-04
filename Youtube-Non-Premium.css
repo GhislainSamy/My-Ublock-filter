@@ -1,25 +1,3 @@
-/* ======= Conf Perso ======= */    
-
-/* Réduire le vide inutile a droite du nom de la chaine pour forcer l'affichage du bouton "enrigistrer" */
-#owner.ytd-watch-metadata {min-width: calc(30% - 6px);}
-
-@media (min-width:600px) and (max-width:678px) {
-ytd-menu-renderer[has-flexible-items] {width: 150%;}
-}
-@media (min-width:679px) and (max-width:1274px) {
-#owner.ytd-watch-metadata {min-width: calc(18% - 6px)!important;flex-direction: column;}
-ytd-watch-metadata[flex-menu-enabled] #actions.ytd-watch-metadata ytd-menu-renderer.ytd-watch-metadata {justify-content: flex-start;}
-ytd-menu-renderer[has-flexible-items] {width: 150%;}
-}
-
-/* Augmenter la taille de la saisie des emojis */    
-yt-emoji-picker-renderer {height: var(--yt-emoji-picker-renderer-height,285px);}
-
-/* Enlever le bouton "Partager de la liste des boutons */
-button[aria-label="Partager"]{display: none;}
-
-/* ======= FIN Conf Perso ======= */
-
 /* ======= Theme Youtube Non Premium ======= */  
 
 /* Enlever le bouton Premium "Rejoindre" à gauche a côté du nom de la chaine. */
