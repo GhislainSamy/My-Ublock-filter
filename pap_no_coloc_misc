@@ -1,0 +1,11 @@
+! Enlever les annonces de chambre en colocation
+pap.fr##.col-1-3:has(.item-tags li:has-text(Chambre en colocation))
+
+! Enlever les éléments de rappel de notification"
+pap.fr##.col-1-2.sm-hidden
+
+! Enlever les annonces avec le lien "lutte-contre-la-fraude"
+pap.fr##a[href="/lutte-contre-la-fraude"]:upward(.search-list-item-alt)
+
+! Enlever les annonces avec le lien "formation a signer contrat location"
+pap.fr##a[href="/outils/atelier/detail?origine=liste-location&slug=signer-contrat-location"]:upward(.search-list-item-alt)
