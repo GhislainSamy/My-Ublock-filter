@@ -9,3 +9,6 @@ pap.fr##a[href="/lutte-contre-la-fraude"]:upward(.search-list-item-alt)
 
 ! Enlever les annonces avec le lien "formation a signer contrat location"
 pap.fr##a[href="/outils/atelier/detail?origine=liste-location&slug=signer-contrat-location"]:upward(.search-list-item-alt)
+
+! Enlever les annonces simulateur avec liens acceslogement.fr
+pap.fr##a[href^="https://www.acceslogement.fr/plus/annonce/vente/appartement/"]:upward(.search-list-item-alt)
