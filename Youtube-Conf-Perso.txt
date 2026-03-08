@@ -32,8 +32,18 @@ youtube.com###dismissible>.grid-subheader>#title-container>.ytd-shelf-renderer:h
 ! Enlever le text "Abonné" du bouton d'abonnement car on le sait déjà avec la cloche
 youtube.com##yt-button-shape>button>.yt-spec-button-shape-next__button-text-content:has-text(Abonné)
 
-! Enlever le text "Partager" du bouton car on sait déjà que c'est pour copier le lien rapide
-youtube.com##button[title="Partager"] .yt-spec-button-shape-next__button-text-content:has-text(Partager)
+! ===== Bouton Partager =====
+! Enlever le texte "Partager" du bouton car on sait déjà que c'est pour copier le lien rapide
+youtube.com##button[aria-label="Partager"] .yt-spec-button-shape-next__button-text-content:has-text(Partager)
+! Rendre le bouton parfaitement rond avec la bonne taille et centrer l'icône
+youtube.com##button[aria-label="Partager"]:style(border-radius: 18px !important; min-width: 36px !important; width: 36px !important; padding: 0 !important; justify-content: center !important; align-items: center !important;)
+! S'assurer que l'icône est bien centrée
+youtube.com##button[aria-label="Partager"] .yt-spec-button-shape-next__icon:style(margin: 0 !important;)
 
-! Enlever le text "Clip" du bouton car on sait déjà que c'est pour faire un clip
-youtube.com##button[title="Clip"] .yt-spec-button-shape-next__button-text-content:has-text(Clip)
+! ===== Bouton Clip =====
+! Enlever le texte "Clip" du bouton car on sait déjà que c'est pour faire un clip
+youtube.com##button[aria-label="Clip"] .yt-spec-button-shape-next__button-text-content:has-text(Clip)
+! Rendre le bouton parfaitement rond avec la bonne taille et centrer l'icône
+youtube.com##button[aria-label="Clip"]:style(border-radius: 18px !important; min-width: 36px !important; width: 36px !important; padding: 0 !important; justify-content: center !important; align-items: center !important;)
+! S'assurer que l'icône est bien centrée
+youtube.com##button[aria-label="Clip"] .yt-spec-button-shape-next__icon:style(margin: 0 !important;)
