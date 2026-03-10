@@ -53,3 +53,6 @@ youtube.com###category-buttons>yt-emoji-picker-category-button-renderer>yt-icon-
 
 ! Enlever le bouton super like dans les shorts
 youtube.com###suggested-action>ytd-shorts-suggested-action-renderer>button-view-model>button>[aria-label="Acheter des Super Thanks"]
+
+! Enlever le bouton "Supprimer les annonces"
+youtube.com##ytd-menu-popup-renderer yt-list-item-view-model:has-text(Supprimer les annonces)
