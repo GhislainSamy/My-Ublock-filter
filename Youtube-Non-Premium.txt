@@ -56,3 +56,6 @@ youtube.com###suggested-action>ytd-shorts-suggested-action-renderer>button-view-
 
 ! Enlever le bouton "Supprimer les annonces"
 youtube.com##ytd-menu-popup-renderer yt-list-item-view-model:has-text(Supprimer les annonces)
+
+! Enlever le bouton "Merci"
+youtube.com##ytd-menu-popup-renderer ytd-menu-service-item-renderer:has-text(Merci)
