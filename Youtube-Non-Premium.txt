@@ -59,3 +59,6 @@ youtube.com##ytd-menu-popup-renderer yt-list-item-view-model:has-text(Supprimer 
 
 ! Enlever le bouton "Merci"
 youtube.com##ytd-menu-popup-renderer ytd-menu-service-item-renderer:has-text(Merci)
+
+! ===== Masquer le bouton "Rejoindre" =====
+youtube.com##button[aria-label="Rejoignez cette chaîne"]
