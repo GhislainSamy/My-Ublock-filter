@@ -34,11 +34,11 @@ youtube.com##yt-button-shape>button>.yt-spec-button-shape-next__button-text-cont
 
 ! ===== Bouton Partager =====
 ! Enlever le texte "Partager" du bouton car on sait déjà que c'est pour copier le lien rapide
-youtube.com##button[aria-label="Partager"] .yt-spec-button-shape-next__button-text-content:has-text(Partager)
+youtube.com##button[aria-label="Partager"] .ytSpecButtonShapeNextButtonTextContent:has-text(Partager)
 ! Rendre le bouton parfaitement rond avec la bonne taille et centrer l'icône
 youtube.com##button[aria-label="Partager"]:style(border-radius: 18px !important; min-width: 36px !important; width: 36px !important; padding: 0 !important; justify-content: center !important; align-items: center !important;)
 ! S'assurer que l'icône est bien centrée
-youtube.com##button[aria-label="Partager"] .yt-spec-button-shape-next__icon:style(margin: 0 !important;)
+youtube.com##button[aria-label="Partager"] .ytSpecButtonShapeNextIcon:style(margin: 0 !important;)
 
 ! ===== Bouton Clip =====
 ! Enlever le texte "Clip" du bouton car on sait déjà que c'est pour faire un clip
